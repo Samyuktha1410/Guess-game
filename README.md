@@ -1,33 +1,26 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Samyuktha1410 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
 
 <?php
+
 // Demand a GET parameter
 if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
     die('Name parameter missing');
 }
+
 // If the user requested logout go back to index.php
 if ( isset($_POST['logout']) ) {
     header('Location: index.php');
     return;
 }
+
 // Set up the values for the game...
 // 0 is Rock, 1 is Paper, and 2 is Scissors
 $names = array('Rock', 'Paper', 'Scissors');
 $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
+
 $computer = rand(0,2); // Hard code the computer to rock
 // TODO: Make the computer be random
 // $computer = rand(0,2);
+
 // This function takes as its input the computer and human play
 // and returns "Tie", "You Lose", "You Win" depending on play
 // where "You" is the human being addressed by the computer
@@ -52,13 +45,15 @@ function check($computer, $human) {
     
     return false;
 }
+
 // Check to see how the play happenned
 $result = check($computer, $human);
+
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Anamitra Musib 32ce3337</title>
+<title>samyuktha 80c6087e</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
@@ -102,3 +97,4 @@ if ( $human == -1 ) {
 </div>
 </body>
 </html>
+
