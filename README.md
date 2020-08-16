@@ -1,8 +1,3 @@
-<html>
-  <body>
-    <div>
-  <pre>
-  <title>samyuktha 80c6087e</title>
   <?php
 // Demand a GET parameter
 if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
@@ -48,7 +43,7 @@ $result = check($computer, $human);
 <!DOCTYPE html>
 <html>
 <head>
-<title>Anamitra Musib 32ce3337</title>
+<title>samyuktha 80c6087e</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
