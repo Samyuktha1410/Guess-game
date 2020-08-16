@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>Guessing Game for Samyuktha</title>
+<title>Guessing Game for samyuktha or 7521b1aa</title>
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
